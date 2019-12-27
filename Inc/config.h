@@ -55,11 +55,11 @@
 #define GAMETRAK_CONNECTION_NORMAL    // for normal wireing accoring to the wiki Instructions
 //#define GAMETRAK_CONNECTION_ALTERNATE // use this define instead if you messed up the gametrak ADC wirering (steering is speed, and length of teh wire is steering)
 
-#define ROT_P         -1.2  // P coefficient for the direction controller. Positive / Negative values to invert gametrak steering direction.
+#define ROT_P         1.2  // P coefficient for the direction controller. Positive / Negative values to invert gametrak steering direction.
 #define FILTER         0.1  // lower value == softer filter. do not use values <0.01, you will get float precision issues.
 
-// #define INVERT_R_DIRECTION  // Invert right motor
-#define INVERT_L_DIRECTION  // Invert left motor
+#define INVERT_R_DIRECTION  // Invert right motor
+// #define INVERT_L_DIRECTION  // Invert left motor
 
 // during nunchuck control (only relevant when activated)
 #define SPEED_COEFFICIENT   0.2  // higher value == stronger. 0.0 to ~2.0?
